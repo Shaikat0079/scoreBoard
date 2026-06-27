@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:regular,500,600,700,800,900);
+
+body {
+    margin: 0;
+    font-family: 'Orbitron';
+    background-color: #1d3557;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container > div > h3{
+    color: whitesmoke;
+    font-size: 32px;
+}
+
+.points{
+    display: flex;
+}
+
+h1{
+    color: #e63946;
+    font-size: 120px;
+    background-color: #0a0908;
+    padding: 40px 85px;
+    border-radius: 20px;
+}
+
+.points > div{
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    color: whitesmoke;
+    margin: 5px 15px;
+    padding: 10px 20px;
+}
+
+#newGame{
+    text-align: center;
+    color: #d00000;
+    margin: 20px 0;
+}

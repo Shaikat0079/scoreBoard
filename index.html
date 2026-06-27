@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h2 id="newGame" onclick="setToZero()">New Game</h2>
+    <div class="container">
+      <div>
+        <h3>HOME</h3>
+        <h1 id="home-point">0</h1>
+        <div class="points">
+          <div id="home-points-1" onclick="addPointOneHome()">+1</div>
+          <div id="home-points-2" onclick="addPointTwoHome()">+2</div>
+          <div id="home-points-3" onclick="addPointThreeHome()">+3</div>
+        </div>
+      </div>
+      <div>
+        <h3>GUEST</h3>
+        <h1 id="guest-point">0</h1>
+        <div class="points">
+            <div id="guest-points-1" onclick="addPointOneGuest()">+1</div>
+            <div id="guest-points-2" onclick="addPointTwoGuest()">+2</div>
+            <div id="guest-points-3" onclick="addPointThreeGuest()">+3</div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
